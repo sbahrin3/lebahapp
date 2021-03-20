@@ -6,8 +6,6 @@ This is an Eclipse based project, so you need to have Eclipse installed first.
 
 LeBAH is a lightweight Java WebApp MVC Framework that I started developed in the year 2007,  which during that time, there is not much Java WebApp framework available.  Over the years it has evolved to become more stable and easier for developer to use.  The most distinguishing feature of this framework compared to others is that every request and submission is done automatically via Ajax call.  
 
-To make life easier for developers, this framework templates come with a MySQLdump database file, which contained the pre-defined users, roles and modules management.  You can right-away begin your project using this templates. Furthermore, contrary to other web application pages, this framework does not allow you to create any form element in your views (HTML pages), as this element is already provided by the framework.
-
 ## Setup
 
 As this repository is an Eclipse-based project, you just need to clone it into your Eclipse IDE.  Watch this video on how to clone the project into your own Eclipse.
