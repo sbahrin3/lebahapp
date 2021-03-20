@@ -52,7 +52,9 @@ public class UsersModule extends LebahAdminModule {
 		User user = db.find(User.class, userId);
 		context.put("userData", user);
 		
-		List<Role> roles = db.list("select r from Role r where r.id <> '" + user.getRole().getId() + "' order by r.name");
+		List<Role> roles = user.getRole() != null ? 
+				db.list("select r from Role r where r.id <> '" + user.getRole().getId() + "' order by r.name") :
+					db.list("select r from Role r order by r.name");
 		context.put("otherRoles", roles);
 		
 		return path + "/addUser.vm";
