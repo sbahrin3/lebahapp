@@ -17,13 +17,13 @@ As this repository is an Eclipse-based project, you just need to clone it into y
 
 
 
-## Database
+## Embedded H2 Database
 
-This example is using the MYSQL database.  First you need to create a database name lebahdemo. Then use the MySQL database dump which is located in the mysqldump folder to initialize the database with preliminary data.
+This project came with an embedded H2 Database.  You are not needed to install any database to run this application.  
 
-```sh
-mysql -u root -p{password} lebahdemo < lebahdemo.sql
-```
+## MySQL Database
+
+Anyway, you can use other database, like MySQL, PostgresQL, and others which you need to install them separately yourself.  
 
 Then you need to modify the dbpersistence.properties file located in the Java Recourse\src folder of the project. Edit the configuration to your environment.
 
@@ -31,7 +31,7 @@ Then you need to modify the dbpersistence.properties file located in the Java Re
 driver.default=com.mysql.jdbc.Driver
 user.default=root
 password.default=
-url.default=jdbc:mysql://localhost:3306/lebahdemo?serverTimezone=UTC
+url.default=jdbc:mysql://localhost:3306/demodb?serverTimezone=UTC
 ```
 
 ## Start
