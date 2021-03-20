@@ -13,8 +13,8 @@ public class AppTest {
 	
 	public static void main(String[] args) throws Exception {
 		
-		//getUsers();
-		testRoles();
+		getUsers();
+		//testRoles();
 		Persistence.db().close();
 		
 	}

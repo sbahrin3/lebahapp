@@ -32,7 +32,7 @@
 		
 			<a href="javascript:void(0)" style="cursor:hand; cursor:pointer;color:#fff;font-family:Verdana;font-size:10pt;"  onclick="show_login()">Login</a>
 			|
-			<a href="javascript:void(0)" style="cursor:hand; cursor:pointer;color:#fff;font-family:Verdana;font-size:10pt;"  onclick="getPage('mafex.modules.SignUpModule');">Sign Up</a>
+			<a href="javascript:void(0)" style="cursor:hand; cursor:pointer;color:#fff;font-family:Verdana;font-size:10pt;"  onclick="getPage('lebah.module.SignUpModule');">Sign Up</a>
 		
 		#end
 	</div>
