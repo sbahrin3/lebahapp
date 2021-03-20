@@ -42,7 +42,7 @@
 <div id="portalSideMenu" class="sidebar">
 
 	<div class="sidebar-title" onclick="closeNav()">
-  		&nbsp; MAFEX <span class="badge">beta</span>
+  		&nbsp; LEBAH 
   	</div>
   	
 	#if ( $_logged_in )
