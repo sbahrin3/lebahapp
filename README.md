@@ -16,7 +16,17 @@ As this repository is an Eclipse-based project, you just need to clone it into y
 
 ## Embedded H2 Database
 
-This project came with an embedded H2 Database.  You are not needed to install any database to run this application.  
+This project came with an embedded H2 Database.  You are not needed to install any database to run this application.  The database connection information are as below:
+
+```sh
+title.default=LIGHT AND EASY
+driver.default=org.h2.Driver
+dialect.default=org.hibernate.dialect.H2Dialect
+user.default=sa
+password.default=
+url.default=jdbc:h2:file:~/h2db/demodb
+```
+
 
 ## MySQL Database
 
@@ -34,10 +44,6 @@ url.default=jdbc:mysql://localhost:3306/demodb?serverTimezone=UTC
 ## Start
 
 Your Eclipse environment must have Application Server configured.  To run the application, right click on the project name and choose Run As > Run on server... and select your Application Server to run.
-
-Watch this video.
-
-[![Watch the how to video](https://i9.ytimg.com/vi/2rHspns7HWY/mq3.jpg?sqp=CLeW-fUF&rs=AOn4CLDFNGaSAsW93HQATcw175OKfC8Ngw)](https://youtu.be/2rHspns7HWY)
 
 
 ## Example Module
