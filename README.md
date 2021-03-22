@@ -11,8 +11,7 @@ LeBAH is a lightweight Java WebApp MVC Framework that I started developed in the
 As this repository is an Eclipse-based project, you just need to clone it into your Eclipse IDE.  Watch this video on how to clone the project into your own Eclipse.
 
 
-[![Watch the how to video](https://i9.ytimg.com/vi/RCIKq_zM9hI/mq2.jpg?sqp=CM-R-fUF&rs=AOn4CLDSj_X52E3M_NLL_hGfm9favJX7lg)](https://youtu.be/RCIKq_zM9hI)
-
+[![Watch the how to video]](https://www.youtube.com/embed/KX52hVjiUbg)
 
 
 ## Embedded H2 Database
