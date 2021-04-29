@@ -18,8 +18,6 @@
              
         <mapping class="lebah.db.entity.User"/>
         <mapping class="lebah.db.entity.Role"/>
-        <mapping class="lebah.db.entity.Module"/>
-        <mapping class="lebah.db.entity.RoleModule"/>
         <mapping class="lebah.db.entity.Menu"/>
         <mapping class="lebah.db.entity.Log"/>
         
