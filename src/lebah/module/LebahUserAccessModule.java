@@ -61,7 +61,7 @@ public class LebahUserAccessModule extends LebahModule {
 						System.out.println("CHECK ACCESS FOR SECONDARY ROLES...");
 						
 						List<Role> roles = user.getSecondaryRoles();						
-						Hashtable h = new Hashtable();
+						Hashtable<String, Object> h = new Hashtable<>();
 						h.put("roles", roles);
 						h.put("classname", classname);
 						String q = "select m from Menu m Join m.roles r where r in :roles and m.moduleClassName = :classname ";
